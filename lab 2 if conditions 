@@ -1,0 +1,591 @@
+{
+  "cells": [
+    {
+      "source": [
+        "# 1) Print largest and smallest values out of two.\n",
+        "num1 = float(input(\"Enter the first number: \"))\n",
+        "num2 = float(input(\"Enter the second number: \"))\n",
+        "\n",
+        "if num1 > num2:\n",
+        "    largest = num1\n",
+        "    smallest = num2\n",
+        "else:\n",
+        "    largest = num2\n",
+        "    smallest = num1\n",
+        "\n",
+        "print(\"Largest:\", largest)\n",
+        "print(\"Smallest:\", smallest)"
+      ],
+      "cell_type": "code",
+      "metadata": {
+        "id": "H5_3ywp5SM3-",
+        "outputId": "6014997d-b374-44f8-80da-8f8f53852c74",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 44,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter the first number: 23\n",
+            "Enter the second number: 45\n",
+            "Largest: 45.0\n",
+            "Smallest: 23.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "source": [
+        "# 2) Print largest and smallest values out of three.\n",
+        "num1 = float(input(\"Enter the first number: \"))\n",
+        "num2 = float(input(\"Enter the second number: \"))\n",
+        "num3 = float(input(\"Enter the third number: \"))\n",
+        "\n",
+        "largest = num1\n",
+        "if num2 > largest:\n",
+        "    largest = num2\n",
+        "if num3 > largest:\n",
+        "    largest = num3\n",
+        "\n",
+        "smallest = num1\n",
+        "if num2 < smallest:\n",
+        "    smallest = num2\n",
+        "if num3 < smallest:\n",
+        "    smallest = num3\n",
+        "\n",
+        "print(\"Largest:\", largest)\n",
+        "print(\"Smallest:\", smallest)"
+      ],
+      "cell_type": "code",
+      "metadata": {
+        "id": "7TGysj3MSNYN",
+        "outputId": "8f6a5618-a371-4c38-c328-d107e055b953",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 45,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter the first number: 12\n",
+            "Enter the second number: 23\n",
+            "Enter the third number: 45\n",
+            "Largest: 45.0\n",
+            "Smallest: 12.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "source": [
+        "# 3) Check whether a given number is odd or even.\n",
+        "number = int(input(\"Enter a number: \"))\n",
+        "\n",
+        "if number % 2 == 0:\n",
+        "    print(number, \"is even\")\n",
+        "else:\n",
+        "    print(number, \"is odd\")"
+      ],
+      "cell_type": "code",
+      "metadata": {
+        "id": "SUtEMv60SNzu",
+        "outputId": "ed12d8c3-12db-4a08-f70b-6b5be379e96d",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 46,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a number: 34\n",
+            "34 is even\n"
+          ]
+        }
+      ]
+    },
+    {
+      "source": [
+        "# 4) Check whether a given number is divisible by 10 or not.\n",
+        "number = int(input(\"Enter a number: \"))\n",
+        "\n",
+        "if number % 10 == 0:\n",
+        "    print(number, \"is divisible by 10\")\n",
+        "else:\n",
+        "    print(number, \"is not divisible by 10\")"
+      ],
+      "cell_type": "code",
+      "metadata": {
+        "id": "xiZncNpISQEO",
+        "outputId": "0d80fd36-5b22-4ffd-8225-39f8d38e98f5",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 47,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a number: 40\n",
+            "40 is divisible by 10\n"
+          ]
+        }
+      ]
+    },
+    {
+      "source": [
+        "# 5) Accept age of a person. If age is less than 18, print minor otherwise Major.\n",
+        "age = int(input(\"Enter age: \"))\n",
+        "\n",
+        "if age < 18:\n",
+        "    print(\"Minor\")\n",
+        "else:\n",
+        "    print(\"Major\")"
+      ],
+      "cell_type": "code",
+      "metadata": {
+        "id": "J6qCPLThSQid",
+        "outputId": "9ce0e415-d4b6-4edb-8678-806062adde61",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 48,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter age: 56\n",
+            "Major\n"
+          ]
+        }
+      ]
+    },
+    {
+      "source": [
+        "# 6) Accept a number from the user. And print number of digits in it.\n",
+        "number = int(input(\"Enter a number: \"))\n",
+        "count = 0\n",
+        "temp = number\n",
+        "\n",
+        "if temp == 0:\n",
+        "  count = 1\n",
+        "else:\n",
+        "  while temp != 0:\n",
+        "    temp //= 10\n",
+        "    count += 1\n",
+        "\n",
+        "print(\"Number of digits:\", count)"
+      ],
+      "cell_type": "code",
+      "metadata": {
+        "id": "p8FGmEj6SQyn",
+        "outputId": "ff6f80bd-6e3f-4a50-e976-6f3ebfb25b26",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 49,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a number: 56\n",
+            "Number of digits: 2\n"
+          ]
+        }
+      ]
+    },
+    {
+      "source": [
+        "# 7) Accept a year value from the user. Check whether it is a leap year or not.\n",
+        "year = int(input(\"Enter a year: \"))\n",
+        "\n",
+        "if year % 4 == 0:\n",
+        "    if year % 100 == 0:\n",
+        "        if year % 400 == 0:\n",
+        "            print(year, \"is a leap year\")\n",
+        "        else:\n",
+        "            print(year, \"is not a leap year\")\n",
+        "    else:\n",
+        "        print(year, \"is a leap year\")\n",
+        "else:\n",
+        "    print(year, \"is not a leap year\")"
+      ],
+      "cell_type": "code",
+      "metadata": {
+        "id": "pIJUh_jLSSoN",
+        "outputId": "bdb0cda5-bffd-44c7-c81a-f4a552edda8c",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 50,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a year: 23\n",
+            "23 is not a leap year\n"
+          ]
+        }
+      ]
+    },
+    {
+      "source": [
+        "# 8) Check whether a triangle is valid or not, when the three angles of the triangle are entered through the keyboard.\n",
+        "angle1 = int(input(\"Enter the first angle: \"))\n",
+        "angle2 = int(input(\"Enter the second angle: \"))\n",
+        "angle3 = int(input(\"Enter the third angle: \"))\n",
+        "\n",
+        "if angle1 + angle2 + angle3 == 180:\n",
+        "    print(\"The triangle is valid.\")\n",
+        "else:\n",
+        "    print(\"The triangle is not valid.\")"
+      ],
+      "cell_type": "code",
+      "metadata": {
+        "id": "oyeLDfkBSY5l",
+        "outputId": "9db372eb-53a2-4f63-a1b3-fa2268ca6715",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 51,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter the first angle: 34\n",
+            "Enter the second angle: 56\n",
+            "Enter the third angle: 23\n",
+            "The triangle is not valid.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "source": [
+        "# 9) Print absolute value of a given number.\n",
+        "number = float(input(\"Enter a number: \"))\n",
+        "\n",
+        "if number < 0:\n",
+        "    absolute_value = -number\n",
+        "else:\n",
+        "    absolute_value = number\n",
+        "\n",
+        "print(\"Absolute value:\", absolute_value)"
+      ],
+      "cell_type": "code",
+      "metadata": {
+        "id": "SVQeyV4GSZi1",
+        "outputId": "2438edc7-1c19-4247-8ddd-daf2d05e06d2",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 52,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a number: 23\n",
+            "Absolute value: 23.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "source": [
+        "# 10) Given the length and breadth of a rectangle, write a program to find whether the area of the rectangle is greater than its perimeter.\n",
+        "length = float(input(\"Enter the length of the rectangle: \"))\n",
+        "breadth = float(input(\"Enter the breadth of the rectangle: \"))\n",
+        "\n",
+        "area = length * breadth\n",
+        "perimeter = 2 * (length + breadth)\n",
+        "\n",
+        "if area > perimeter:\n",
+        "    print(\"Area is greater than perimeter\")\n",
+        "else:\n",
+        "    print(\"Area is not greater than perimeter\")"
+      ],
+      "cell_type": "code",
+      "metadata": {
+        "id": "f8rb6NXRSaDW",
+        "outputId": "ef29e181-a138-4c63-ed85-f301584e5609",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 53,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter the length of the rectangle: 12\n",
+            "Enter the breadth of the rectangle: 28\n",
+            "Area is greater than perimeter\n"
+          ]
+        }
+      ]
+    },
+    {
+      "source": [
+        "# 11) Given three points (x1,y1), (x2,y2) and (x3,y3), check if all the three points fall on one straight line.\n",
+        "x1 = float(input(\"Enter x1: \"))\n",
+        "y1 = float(input(\"Enter y1: \"))\n",
+        "x2 = float(input(\"Enter x2: \"))\n",
+        "y2 = float(input(\"Enter y2: \"))\n",
+        "x3 = float(input(\"Enter x3: \"))\n",
+        "y3 = float(input(\"Enter y3: \"))\n",
+        "\n",
+        "if (y2 - y1) * (x3 - x2) == (y3 - y2) * (x2 - x1):\n",
+        "    print(\"All three points fall on one straight line.\")\n",
+        "else:\n",
+        "    print(\"All three points do not fall on one straight line.\")"
+      ],
+      "cell_type": "code",
+      "metadata": {
+        "id": "2nZBHWI_Sant",
+        "outputId": "92fea42e-2426-4573-ebdc-e1e7e3cde7b9",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 54,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter x1: 45\n",
+            "Enter y1: 67\n",
+            "Enter x2: 89\n",
+            "Enter y2: 12\n",
+            "Enter x3: 34\n",
+            "Enter y3: 13\n",
+            "All three points do not fall on one straight line.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "source": [
+        "2\n",
+        "34# 12) Given the coordinates (x,y) of center of a circle and its radius, determine whether a point lies inside the circle, on the circle or outside the circle.\n",
+        "import math\n",
+        "\n",
+        "center_x = float(input(\"Enter the x-coordinate of the center: \"))\n",
+        "center_y = float(input(\"Enter the y-coordinate of the center: \"))\n",
+        "radius = float(input(\"Enter the radius: \"))\n",
+        "point_x = float(input(\"Enter the x-coordinate of the point: \"))\n",
+        "point_y = float(input(\"Enter the y-coordinate of the point: \"))\n",
+        "\n",
+        "distance = math.sqrt((point_x - center_x)**2 + (point_y - center_y)**2)\n",
+        "\n",
+        "if distance < radius:\n",
+        "    print(\"The point lies inside the circle.\")\n",
+        "elif distance == radius:\n",
+        "    print(\"The point lies on the circle.\")\n",
+        "else:\n",
+        "    print(\"The point lies outside the circle.\")"
+      ],
+      "cell_type": "code",
+      "metadata": {
+        "collapsed": true,
+        "id": "16wZJ-HOSbTV",
+        "outputId": "1e360126-0a8c-4919-f559-211c531def65",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 58,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter the x-coordinate of the center: 5\n",
+            "Enter the y-coordinate of the center: 6\n",
+            "Enter the radius: 7\n",
+            "Enter the x-coordinate of the point: 8\n",
+            "Enter the y-coordinate of the point: 9\n",
+            "The point lies inside the circle.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "source": [
+        "# 13) Convert number 0 to 19 to its equivalent words.\n",
+        "number = int(input(\"Enter a number between 0 and 19: \"))\n",
+        "\n",
+        "if number == 0:\n",
+        "    word = \"zero\"\n",
+        "elif number == 1:\n",
+        "    word = \"one\"\n",
+        "elif number == 2:\n",
+        "    word = \"two\"\n",
+        "elif number == 3:\n",
+        "    word = \"three\"\n",
+        "elif number == 4:\n",
+        "    word = \"four\"\n",
+        "elif number == 5:\n",
+        "    word = \"five\"\n",
+        "elif number == 6:\n",
+        "    word = \"six\"\n",
+        "elif number == 7:\n",
+        "    word = \"seven\"\n",
+        "elif number == 8:\n",
+        "    word = \"eight\"\n",
+        "elif number == 9:\n",
+        "    word = \"nine\"\n",
+        "elif number == 10:\n",
+        "    word = \"ten\"\n",
+        "elif number == 11:\n",
+        "    word = \"eleven\"\n",
+        "elif number == 12:\n",
+        "    word = \"twelve\"\n",
+        "elif number == 13:\n",
+        "    word = \"thirteen\"\n",
+        "elif number == 14:\n",
+        "    word = \"fourteen\"\n",
+        "elif number == 15:\n",
+        "    word = \"fifteen\"\n",
+        "elif number == 16:\n",
+        "    word = \"sixteen\"\n",
+        "elif number == 17:\n",
+        "    word = \"seventeen\"\n",
+        "elif number == 18:\n",
+        "    word = \"eighteen\"\n",
+        "elif number == 19:\n",
+        "    word = \"nineteen\"\n",
+        "else:\n",
+        "    word = \"Invalid input\"\n",
+        "\n",
+        "print(word)"
+      ],
+      "cell_type": "code",
+      "metadata": {
+        "id": "c0GMJ1x6ScFu",
+        "outputId": "18985d23-2c9a-4d1f-b493-7350eb03815e",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 56,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a number between 0 and 19: 3\n",
+            "three\n"
+          ]
+        }
+      ]
+    },
+    {
+      "source": [
+        "# 14) Accept marks of three subjects. Print total and average along with whether a candidate has passed or fail.\n",
+        "sub1 = int(input(\"Enter marks of subject 1: \"))\n",
+        "sub2 = int(input(\"Enter marks of subject 2: \"))\n",
+        "sub3 = int(input(\"Enter marks of subject 3: \"))\n",
+        "\n",
+        "total = sub1 + sub2 + sub3\n",
+        "average = total / 3\n",
+        "\n",
+        "if sub1 <= 39 or sub2 <= 39 or sub3 <= 39:\n",
+        "  result = \"Fail\"\n",
+        "else:\n",
+        "  result = \"Pass\"\n",
+        "\n",
+        "print(\"Total:\", total)\n",
+        "print(\"Average:\", average)\n",
+        "print(\"Result:\", result)\n",
+        "\n",
+        "def get_grade(marks):\n",
+        "  if marks == -1:\n",
+        "    return \"NA\"\n",
+        "  elif marks <= 39:\n",
+        "    return \"F\"\n",
+        "  elif marks <= 44:\n",
+        "    return \"P\"\n",
+        "  elif marks <= 49:\n",
+        "    return \"C\"\n",
+        "  elif marks <= 54:\n",
+        "    return \"B\"\n",
+        "  elif marks <= 59:\n",
+        "    return \"B+\"\n",
+        "  elif marks <= 69:\n",
+        "    return \"A\"\n",
+        "  elif marks <= 79:\n",
+        "    return \"A+\"\n",
+        "  elif marks <= 100:\n",
+        "    return \"O\"\n",
+        "  else:\n",
+        "    return \"Invalid marks\"\n",
+        "\n",
+        "print(\"Subject 1 Grade:\", get_grade(sub1))\n",
+        "print(\"Subject 2 Grade:\", get_grade(sub2))\n",
+        "print(\"Subject 3 Grade:\", get_grade(sub3))"
+      ],
+      "cell_type": "code",
+      "metadata": {
+        "id": "KO8LHayISc1A",
+        "outputId": "9664ded0-5323-4a9c-9c96-0871da4b8c00",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 57,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter marks of subject 1: 23\n",
+            "Enter marks of subject 2: 67\n",
+            "Enter marks of subject 3: 89\n",
+            "Total: 179\n",
+            "Average: 59.666666666666664\n",
+            "Result: Fail\n",
+            "Subject 1 Grade: F\n",
+            "Subject 2 Grade: A\n",
+            "Subject 3 Grade: O\n"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "name": "Welcome To Colab",
+      "toc_visible": true,
+      "provenance": []
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
