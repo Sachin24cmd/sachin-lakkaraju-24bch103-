@@ -1,0 +1,16 @@
+Write following programs considering list in mind:
+1. Create a list of 5 odd integers using random nos. Similarly create a list of 4 even integers using
+random nos. Replace the third element of odd integers with a list of 4 even integers. Flattern, sort
+and print the list. Provide appropriate message at each stage.
+2. Generate 20 random integers and store them in a list. Accept a number from the user and print
+position of all occurrences of that number in the list.
+3. Generate 50 random numbers in the range 1 and 30. Remove all duplicate values from the list.
+4. Generate 30 random numbers and put them in a list. Create two more lists – one containing only
++ve numbers and another with –ve nos.
+5. A list contains 5 strings. Convert all these strings to uppercase.
+6. Convert list of temperatures in Fahrenheit degrees to equivalent Celsius degrees.
+7. Write a menu-driven program to implement the stack data structure.
+8. Write a menu-driven program to implement the Queue data structure.
+9. Take two lists of numbers. Create third list of numbers for only those numbers from first list which
+are not there in 2
+nd list (use list comprehension). 
