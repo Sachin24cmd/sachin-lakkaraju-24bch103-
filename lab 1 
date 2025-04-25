@@ -1,0 +1,676 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Sachin24cmd/sachin-lakkaraju-24bch103-/blob/main/lab%201%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "source": [
+        "# 1. Add two numbers\n",
+        "a = 10\n",
+        "b = 20\n",
+        "c = a + b\n",
+        "print(c)"
+      ],
+      "cell_type": "code",
+      "metadata": {
+        "id": "ue3LkbeOPNRd",
+        "outputId": "c0a6b3eb-4402-4ade-e152-80302c17b171",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 20,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "30\n"
+          ]
+        }
+      ]
+    },
+    {
+      "source": [
+        "# 2. Subtract two numbers\n",
+        "a = 20\n",
+        "b = 10\n",
+        "c = a - b\n",
+        "print(c)"
+      ],
+      "cell_type": "code",
+      "metadata": {
+        "id": "mh4b1b_WPNlQ",
+        "outputId": "ab005ce3-9066-4ede-c75b-01dd35c3f9ba",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 21,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "10\n"
+          ]
+        }
+      ]
+    },
+    {
+      "source": [
+        "# 3. Multiply two numbers\n",
+        "a = 10\n",
+        "b = 20\n",
+        "c = a * b\n",
+        "print(c)"
+      ],
+      "cell_type": "code",
+      "metadata": {
+        "id": "zjrypq8kPOCQ",
+        "outputId": "2ecf48bc-ef23-4205-b0ea-c8183c372ec4",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 22,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "200\n"
+          ]
+        }
+      ]
+    },
+    {
+      "source": [
+        "# 4. Divide two numbers\n",
+        "a = 20\n",
+        "b = 10\n",
+        "c = a / b\n",
+        "print(c)"
+      ],
+      "cell_type": "code",
+      "metadata": {
+        "id": "d2xzhqFyPOVB",
+        "outputId": "9eca3487-964c-4876-de75-df803b83806f",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 23,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "2.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "source": [
+        "# 5. Add, multiply, subtract and divide two numbers\n",
+        "a = 10\n",
+        "b = 20\n",
+        "add = a + b\n",
+        "mul = a * b\n",
+        "sub = a - b\n",
+        "div = a / b\n",
+        "print(add, mul, sub, div)"
+      ],
+      "cell_type": "code",
+      "metadata": {
+        "id": "6fH7csp6PPvR",
+        "outputId": "718f30d3-fbd1-4809-e781-95af8920fd42",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 24,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "30 200 -10 0.5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "source": [
+        "# 6. Convert hours into minutes\n",
+        "hours = 2\n",
+        "minutes = hours * 60\n",
+        "print(minutes)"
+      ],
+      "cell_type": "code",
+      "metadata": {
+        "id": "p_j-6j1RPQLZ",
+        "outputId": "519f2f53-43ee-4fae-d0e0-9a353b3edb56",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 25,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "120\n"
+          ]
+        }
+      ]
+    },
+    {
+      "source": [
+        "# 7. Convert minutes into hours\n",
+        "minutes = 120\n",
+        "hours = minutes / 60\n",
+        "print(hours)"
+      ],
+      "cell_type": "code",
+      "metadata": {
+        "id": "3geFjqp8PRDB",
+        "outputId": "9b5db288-6f96-45e4-d953-68830506985b",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 26,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "2.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "source": [
+        "# 8. Convert dollars into Rs\n",
+        "dollars = 10\n",
+        "rs = dollars * 48\n",
+        "print(rs)"
+      ],
+      "cell_type": "code",
+      "metadata": {
+        "id": "wYsG2ZrbPRZF",
+        "outputId": "4c576bfb-1a33-4055-e0bb-ec58f8538e49",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 27,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "480\n"
+          ]
+        }
+      ]
+    },
+    {
+      "source": [
+        "# 9. Convert Rs into dollars\n",
+        "rs = 480\n",
+        "dollars = rs / 48\n",
+        "print(dollars)"
+      ],
+      "cell_type": "code",
+      "metadata": {
+        "id": "3EvIiFm0PRot",
+        "outputId": "70224739-865f-4cb8-9ec1-6f5f51f6cc42",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 28,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "10.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "source": [
+        "# 10. Convert dollars into pound\n",
+        "dollars = 10\n",
+        "rs = dollars * 48\n",
+        "pound = rs / 70\n",
+        "print(pound)"
+      ],
+      "cell_type": "code",
+      "metadata": {
+        "id": "fP__XHemPR95",
+        "outputId": "c70a7bf3-d8f3-49da-caa1-1d18e706e5a8",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 29,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "6.857142857142857\n"
+          ]
+        }
+      ]
+    },
+    {
+      "source": [
+        "# 11. Convert grams into kg\n",
+        "grams = 1000\n",
+        "kg = grams / 1000\n",
+        "print(kg)"
+      ],
+      "cell_type": "code",
+      "metadata": {
+        "id": "6fdmn3E6PSUu",
+        "outputId": "4e88e001-1c28-4602-a378-2ddae141f99e",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 30,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "source": [
+        "# 12. Convert kgs into grams\n",
+        "kg = 1\n",
+        "grams = kg * 1000\n",
+        "print(grams)"
+      ],
+      "cell_type": "code",
+      "metadata": {
+        "id": "v2BZ6Y8kPSyN",
+        "outputId": "9c3cf8f9-c7c6-4069-93fc-55155591e0d2",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 31,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1000\n"
+          ]
+        }
+      ]
+    },
+    {
+      "source": [
+        "# 13. Convert bytes into KB, MB and GB\n",
+        "bytes = 1024\n",
+        "kb = bytes / 1024\n",
+        "mb = kb / 1024\n",
+        "gb = mb / 1024\n",
+        "print(kb, mb, gb)"
+      ],
+      "cell_type": "code",
+      "metadata": {
+        "id": "t0cXY7l3PTBr",
+        "outputId": "b59b361e-0f23-45a3-eb9d-9d17a2cd87ea",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 32,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1.0 0.0009765625 9.5367431640625e-07\n"
+          ]
+        }
+      ]
+    },
+    {
+      "source": [
+        "# 14. Convert Celsius into Fahrenheit\n",
+        "celsius = 37\n",
+        "fahrenheit = (9 / 5 * celsius) + 32\n",
+        "print(fahrenheit)"
+      ],
+      "cell_type": "code",
+      "metadata": {
+        "id": "FCGdxlIZPTWY",
+        "outputId": "d5754384-c1bc-4117-8f62-3aaf85ddde86",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 33,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "98.60000000000001\n"
+          ]
+        }
+      ]
+    },
+    {
+      "source": [
+        "# 15. Convert Fahrenheit into Celsius\n",
+        "fahrenheit = 98.6\n",
+        "celsius = 5 / 9 * (fahrenheit - 32)\n",
+        "print(celsius)"
+      ],
+      "cell_type": "code",
+      "metadata": {
+        "id": "AuNUL_xiPTu2",
+        "outputId": "6307984f-2d92-4f9e-c7e8-0154f81f3848",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 34,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "37.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "source": [
+        "# 16. Calculate interest\n",
+        "p = 10000\n",
+        "r = 10\n",
+        "n = 2\n",
+        "i = p * r * n / 100\n",
+        "print(i)"
+      ],
+      "cell_type": "code",
+      "metadata": {
+        "id": "czN4sgI5PUCc",
+        "outputId": "316a1def-d446-4f98-a0d5-8f5700170766",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 35,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "2000.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "source": [
+        "# 17. Calculate area & perimeter of a square\n",
+        "l = 10\n",
+        "a = l * l\n",
+        "p = 4 * l\n",
+        "print(a, p)"
+      ],
+      "cell_type": "code",
+      "metadata": {
+        "id": "IMVFn3D8PUaJ",
+        "outputId": "b474261a-ccfb-45be-8841-84454f28b7ed",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 36,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "100 40\n"
+          ]
+        }
+      ]
+    },
+    {
+      "source": [
+        "# 18. Calculate area & perimeter of a rectangle\n",
+        "l = 10\n",
+        "b = 20\n",
+        "a = l * b\n",
+        "p = 2 * (l + b)\n",
+        "print(a, p)"
+      ],
+      "cell_type": "code",
+      "metadata": {
+        "id": "5EY3OOd1PUwx",
+        "outputId": "6b097860-6f2e-44e9-c9dc-65ab72fefa37",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 37,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "200 60\n"
+          ]
+        }
+      ]
+    },
+    {
+      "source": [
+        "# 19. Calculate area of a circle\n",
+        "r = 7\n",
+        "a = 22 / 7 * r * r\n",
+        "print(a)"
+      ],
+      "cell_type": "code",
+      "metadata": {
+        "id": "sIvmuGQIPVL6",
+        "outputId": "0f286c8d-dc74-4c9f-95c3-44863289dc48",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 38,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "154.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "source": [
+        "# 20. Calculate area of a triangle\n",
+        "h = 10\n",
+        "l = 20\n",
+        "a = h * l / 2\n",
+        "print(a)"
+      ],
+      "cell_type": "code",
+      "metadata": {
+        "id": "CDmGK0cqPVjH",
+        "outputId": "81061366-a72e-4272-be5b-3daf70489a3a",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 39,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "100.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "source": [
+        "# 21. Calculate net salary\n",
+        "gross_salary = 50000\n",
+        "allowance = gross_salary * 0.1\n",
+        "deduction = gross_salary * 0.03\n",
+        "net_salary = gross_salary + allowance - deduction\n",
+        "print(net_salary)"
+      ],
+      "cell_type": "code",
+      "metadata": {
+        "id": "d4pD059nPV3o",
+        "outputId": "36fe8d49-49d8-4e02-f23f-6ca4ade7af34",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 40,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "53500.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "source": [
+        "# 22. Calculate net sales\n",
+        "gross_sales = 10000\n",
+        "discount = gross_sales * 0.1\n",
+        "net_sales = gross_sales - discount\n",
+        "print(net_sales)"
+      ],
+      "cell_type": "code",
+      "metadata": {
+        "id": "gp9_I6k-PWRF",
+        "outputId": "79c0e485-9ac5-460f-b8c2-9748895a5b25",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 41,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "9000.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "source": [
+        "# 23. Calculate average of three subjects along with their total\n",
+        "s1 = 60\n",
+        "s2 = 90\n",
+        "s3 = 70\n",
+        "total = s1 + s2 + s3\n",
+        "average = total / 3\n",
+        "print(total, average)"
+      ],
+      "cell_type": "code",
+      "metadata": {
+        "id": "D504K_9MPW3Y",
+        "outputId": "d5711c9b-6435-43ec-e66b-98be8e3704be",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 42,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "220 73.33333333333333\n"
+          ]
+        }
+      ]
+    },
+    {
+      "source": [
+        "# 24. Swap two values\n",
+        "a = 15\n",
+        "b = 20\n",
+        "a, b = b, a\n",
+        "print(a, b)"
+      ],
+      "cell_type": "code",
+      "metadata": {
+        "id": "YPSvf9RzPXPo",
+        "outputId": "cfc0c977-7e7f-450e-c5de-4bd7f3cc1dbc",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 43,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "20 15\n"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "name": "Welcome To Colab",
+      "toc_visible": true,
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
